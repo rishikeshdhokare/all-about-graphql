@@ -24,6 +24,8 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
 	implementation("org.springframework.data:spring-data-jpa:2.4.1")
 	implementation("org.postgresql:postgresql:42.2.18")
+	implementation("com.graphql-java:graphql-spring-boot-starter:5.0.2")
+	implementation("com.graphql-java:graphql-java-tools:5.2.4")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 

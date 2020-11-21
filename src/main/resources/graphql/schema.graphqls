@@ -1,0 +1,14 @@
+schema {
+    query: Query
+}
+
+type Query {
+    # fetch all products
+    getAllProducts: [Product]
+}
+
+type Product {
+    id: ID,
+    name: String,
+    price: Float
+}
