@@ -12,3 +12,16 @@ query{
   }
 }
 ```
+
+## mutation
+POST http://localhost:8080/graphql 
+
+```
+mutation{
+  updateProductPrice(productId: "111", newPrice: 1.5) {
+    id,
+    name,
+    price
+  }
+}
+```
